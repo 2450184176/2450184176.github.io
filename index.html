@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<title>madeBy余天喜</title>
     <style type="text/css">
-        header{ width: 100%; margin:0 auto; text-align: center; }
-        header h1{font:bold 40px/15px Arial;}
+        header, footer{ width: 100%; margin:0 auto; text-align: center; }
         header a{display: block;margin:auto;width: 100px;padding:8px 5px;
             background-color: #8f7a66; font-family:Arial;color:white;
             border-radius:10px;cursor: pointer;
             text-decoration: none;}
         header a:hover{text-shadow: 0 0 2px #333;}
         header p{font: bold 18px/5px Arial;}
-
         .grid-container{position: relative;margin:auto;background-color: #bbada0;}
         .grid-container .grid-cell{position: absolute;
             background-color: #d4c8bb;border-radius: 6px;}
@@ -22,9 +20,8 @@
     </style>
 </head>
 <body>
-
 <header>
-	<h2>2048，好玩记得发个红包哟~</h1>
+	<h2>2048，好玩记得发个红包哟~</h2>
 	<a href="javascript:newgame();" id="newgamebutton">new game</a>
 	<p href="#">score:<span id="score">0</span></p>
 </header>
@@ -49,8 +46,9 @@
     <div class="grid-cell" id="grid-cell-3-2"></div>
     <div class="grid-cell" id="grid-cell-3-3"></div>
 </div>
-
-
+<footer>
+	<h2>为什么一个红包都没收到！</h2>
+</footer>
 <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="js/support2048.js"></script>
 <script type="text/javascript" src="js/showanimation2048.js"></script>
